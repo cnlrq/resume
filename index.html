@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>兰如青的简历</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/swiper.css">
+</head>
+<body>
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+	        	<div id='myinfo'>
+	        		<img src="img/1.jpg" id='avatar'>	        		
+	        		<h3 class="name">兰如青</h3>
+	        		<p class='des'>爱足球，爱摄影的</p>
+	        		<p class="position">前端工程师</p>
+	        		<a class='email' href="mailto:cndllrq@gmail.com">cndllrq@gmail.com</a>
+	        	</div>
+	        </div>
+	        <div class="swiper-slide">
+				<div id="myskill">
+					<h3>我擅长什么</h3>
+					<div>
+						<span class='code1'>html</span>
+						<span class='code1'>css</span>
+						<span class='code1'>javascript</span>
+						<span class='code1'>jquery</span>
+						<span class='code1'>scss/less</span>
+						<span class='code1'>bootstrap</span>
+						<span class='code2'>gulp</span>
+						<span class='code2'>vue.js</span>
+					</div>
+				</div>
+	        </div>
+	        <div class="swiper-slide">3</div>
+	    </div>
+	</div>
+
+	<script src='js/jquery.js'></script>
+	<script src='js/swiper.js'></script>
+	<script src='js/main.js'></script>
+	<script>        
+	  var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'vertical',
+	    loop: true,
+	    pagination: '.swiper-pagination',
+	    mousewheelControl:true
+	  })        
+  </script>
+</body>
+</html>
