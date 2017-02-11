@@ -69,5 +69,30 @@ html, body, .swiper-container {
         background: #546E7A; }
       .swiper-slide #myskill span.code2 {
         background: #5e7c89; }
+  .swiper-slide .projects {
+    width: 60%; }
+    .swiper-slide .projects h3 {
+      color: #FFA726;
+      margin-bottom: 2rem; }
+    .swiper-slide .projects .p_detail {
+      margin: 1rem auto;
+      width: 100%;
+      border-bottom: 3px solid #4f6875;
+      position: relative; }
+      .swiper-slide .projects .p_detail:before {
+        content: attr(data-index);
+        display: inline-block;
+        position: absolute;
+        left: -3%;
+        top: -7%;
+        font-size: 2em;
+        color: #5a7684;
+        margin-right: 0.5rem; }
+      .swiper-slide .projects .p_detail h5 {
+        color: #263238;
+        font-size: 1em; }
+      .swiper-slide .projects .p_detail p {
+        color: #11171a;
+        font-size: 0.8em; }
 
 /*# sourceMappingURL=main.css.map */
