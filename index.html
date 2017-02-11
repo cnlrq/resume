@@ -3,17 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>兰如青的简历</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-	<link rel="stylesheet" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">	
 	<link rel="stylesheet" href="css/swiper.css">
-	<link rel="stylesheet" href="css/timeline.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class="swiper-container">
 	    <div class="swiper-wrapper">
 	        <div class="swiper-slide">
 	        	<div id='myinfo'>
-	        		<img src="img/1.jpg" id='avatar'>	        		
+	        		<img src="img/1.webp" id='avatar'>	        		
 	        		<h3 class="name">兰如青</h3>
 	        		<p class='des'>爱足球，爱摄影的</p>
 	        		<p class="position">前端工程师</p>
@@ -22,7 +21,7 @@
 	        </div>
 	        <div class="swiper-slide">
 				<div id="myskill">
-					<h3>我擅长什么</h3>
+					<h3>我都会什么</h3>
 					<div>
 						<span class='code1'>html</span>
 						<span class='code1'>css</span>
@@ -30,8 +29,11 @@
 						<span class='code1'>jquery</span>
 						<span class='code1'>scss/less</span>
 						<span class='code1'>bootstrap</span>
+						<span class='code1'>svn</span>
 						<span class='code2'>gulp</span>
 						<span class='code2'>vue.js</span>
+						<span class='code2'>github</span>
+						<span class='code2'>Mysql</span>
 					</div>
 				</div>
 	        </div>
@@ -45,7 +47,8 @@
 					<div class="p_detail">
 						<h5>誉实集</h5>
 						<p>一个建筑工程管理系统
-主要是用了bootstrap框架来完成前端部分</p>
+						主要是用了bootstrap框架来完成前端部分
+						</p>
 					</div>
 					<div class="p_detail">
 						<h5>奥林匹克电子城电商平台</h5>
@@ -74,6 +77,7 @@
 				</div>
 	        </div>
 	    </div>
+	    <div class="swiper-pagination"></div>
 	</div>
 
 	<script src='js/jquery.js'></script>
@@ -83,9 +87,10 @@
 	<script>        
 	  var mySwiper = new Swiper ('.swiper-container', {
 	    direction: 'vertical',
-	    loop: true,
+	    loop: false,
 	    pagination: '.swiper-pagination',
-	    mousewheelControl:true
+	    mousewheelControl:true,
+	    paginationClickable:true
 	  })  
   </script>
 </body>
