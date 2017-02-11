@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Microsoft YaHei" !important; }
+  box-sizing: border-box; }
 
 html, body, .swiper-container {
   width: 100%;
@@ -95,11 +94,5 @@ html, body, .swiper-container {
       .swiper-slide .projects .p_detail p {
         color: #11171a;
         font-size: 0.8em; }
-
-.swiper-pagination-bullet-active {
-  background: #3f535c; }
-
-.swiper-container-vertical > .swiper-pagination-bullets {
-  left: 1rem; }
 
 /*# sourceMappingURL=main.css.map */
