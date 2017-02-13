@@ -102,4 +102,29 @@ html, body, .swiper-container {
 .swiper-container-vertical > .swiper-pagination-bullets {
   left: 1rem; }
 
+@media screen and (max-width: 750px) {
+  body h3 {
+    font-size: 4em !important; }
+  body .swiper-slide #myinfo .name {
+    font-size: 5.5em !important; }
+  body .swiper-slide #myinfo .des {
+    font-size: 3.5em !important; }
+  body .swiper-slide #myinfo .position {
+    font-size: 4em !important; }
+  body .swiper-slide #myinfo .email {
+    font-size: 3em !important; }
+
+  .swiper-slide h3 {
+    text-align: center !important; }
+
+  .swiper-slide .projects div.p_detail {
+    text-align: center;
+    border-bottom: none; }
+    .swiper-slide .projects div.p_detail:before {
+      display: none; }
+    .swiper-slide .projects div.p_detail p {
+      display: none; }
+    .swiper-slide .projects div.p_detail h5 {
+      font-size: 2.5em !important; } }
+
 /*# sourceMappingURL=main.css.map */
